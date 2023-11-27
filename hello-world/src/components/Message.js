@@ -11,7 +11,23 @@ class Message extends Component {
         }
     }
 
-    changeState() {
+    // changeState() {
+    //     if (this.state.subscription) {
+    //         this.setState({
+    //             message: 'Sorry to see you go!',
+    //             subscription: false,
+    //             subsText: 'Re-Subscribe!'
+    //         });
+    //     } else {
+    //         this.setState({
+    //             message: 'Thank you for subscribing!',
+    //             subscription: true,
+    //             subsText: 'Unsubscribe!'
+    //         });
+    //     }
+    // }
+
+    changeState = () => {
         if (this.state.subscription) {
             this.setState({
                 message: 'Sorry to see you go!',
