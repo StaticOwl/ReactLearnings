@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
 
-        {/*<PureComp/>
+        <PureComp/>
         <br/>
         <Table/>
         <Fragment/>
@@ -60,7 +60,7 @@ function App() {
                 firstName: 'John',
                 lastName: 'Doe'
             }
-        }/>*/}
+        }/>
     </div>
   );
 }
